@@ -7,6 +7,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        jakarta: ['var(--font-plus-jakarta-sans)', 'sans-serif'],
+        alegreya: ['var(--font-alegreya)', 'serif'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
