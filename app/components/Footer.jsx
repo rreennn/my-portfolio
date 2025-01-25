@@ -13,7 +13,7 @@ export default function Footer() {
           <Image src={github} alt="github-icon" width={25} />
           Github
         </a>
-        <a href="kerenkaren1704@gmail.com" className="flex gap-3 items-center hover:font-semibold duration-200">
+        <a href="mailto:kerenkaren1704@gmail.com" className="flex gap-3 items-center hover:font-semibold duration-200">
           <Image src={email} alt="instagram-icon" width={25} />
           Email
         </a>

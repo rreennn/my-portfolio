@@ -30,13 +30,13 @@ export default function Header() {
         <div className="flex gap-3">
           <a
             href="#project"
-            className="w-32 mt-4 px-1 py-2 font-semibold rounded-full bg-black text-white border-2 border-white hover:bg-white hover:text-black hover:border-black duration-200 "
+            className="text-center w-32 mt-4 px-1 py-2 font-semibold rounded-full bg-black text-white border-2 border-white hover:bg-white hover:text-black hover:border-black duration-200 "
           >
             My Projects
           </a>
           <a
             href="https://docs.google.com/document/d/1_F45qIV-6DRcgfIL5HpH8I_NxIRANTK0/edit?usp=sharing&ouid=112297824591728088121&rtpof=true&sd=true"
-            className="w-32 mt-4 px-1 py-2 font-semibold rounded-full bg-black text-white border-2 border-white hover:bg-white hover:text-black hover:border-black duration-200 "
+            className="text-center w-32 mt-4 px-1 py-2 font-semibold rounded-full bg-black text-white border-2 border-white hover:bg-white hover:text-black hover:border-black duration-200 "
           >
             My Resume
           </a>
