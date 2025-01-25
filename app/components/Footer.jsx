@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <div className="bg-red-800" id="links">
+    <div className="bg-black text-white" id="links">
       <div className="px-8 py-5 flex flex-col gap-3 text-white">
         <p className="underline underline-offset-4 pb-3 text-lg font-semibold">Find me!</p>
         <a href="https://github.com/rreennn" className="flex gap-3 items-center hover:font-semibold duration-200">

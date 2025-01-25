@@ -1,25 +1,25 @@
 import React from "react";
-import { alegreya } from "@/assets/fonts";
+import { montserrat } from "@/assets/fonts";
 import divider from "../../assets/divider.png";
 import Image from "next/image";
 
 export default function Header() {
   return (
-    <div className="" id="about">
+    <div className="h-screen" id="about">
       {/* lil screen */}
       <div className="md:hidden h-[70vh] flex px-16 items-center gap-3 justify-center flex-col">
-        <p className={alegreya.className}>
+        <p className={montserrat.className}>
           <span className="text-4xl">
             Hi! I'm{" "}
             <span className="text-red-400 font-bold">Keren Karenaningtyas</span>
           </span>
         </p>
-        <p className={alegreya.className}>
+        <p className={montserrat.className}>
           <span className="text-lg">
             I'm currently a student in Dian Nuswantoro University
           </span>
         </p>
-        <p className={alegreya.className}>
+        <p className={montserrat.className}>
           <span className="text-lg">
             Interested in web development,{" "}
             <span className="text-red-400">
@@ -45,18 +45,18 @@ export default function Header() {
 
       {/* big screen */}
       <div className="hidden md:flex h-[60vh] flex-col justify-center px-24 gap-1 ">
-        <p className={alegreya.className}>
+        <p className={montserrat.className}>
           <span className="text-4xl">
             Hi! I'm{" "}
             <span className="text-red-600 font-bold">Keren Karenaningtyas</span>
           </span>
         </p>
-        <p className={alegreya.className}>
+        <p className={montserrat.className}>
           <span className="text-lg">
             I'm currently a student in Dian Nuswantoro University
           </span>
         </p>
-        <p className={alegreya.className}>
+        <p className={montserrat.className}>
           <span className="text-lg">
             Interested in web development,{" "}
             <span className="text-red-600">
@@ -79,7 +79,7 @@ export default function Header() {
           </a>
         </div>
       </div>
-      <div className="flex justify-center pb-3">
+      <div className="flex justify-center pt-24">
         <Image src={divider} alt="divider" width={200} />
       </div>
     </div>

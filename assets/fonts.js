@@ -1,6 +1,6 @@
-import { Alegreya } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
-export const alegreya = Alegreya({
-    weight: ["400"],
+export const montserrat = Montserrat({
+    weight: ["400", "500", "700"],
     subsets: ["latin"]
 })
