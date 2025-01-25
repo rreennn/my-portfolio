@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <div className="h-screen" id="about">
+    <div className="" id="about">
       {/* lil screen */}
       <div className="md:hidden h-[70vh] flex px-16 items-center gap-3 justify-center flex-col">
         <p className={montserrat.className}>
@@ -79,7 +79,7 @@ export default function Header() {
           </a>
         </div>
       </div>
-      <div className="flex justify-center pt-24">
+      <div className="flex justify-center py-3">
         <Image src={divider} alt="divider" width={200} />
       </div>
     </div>
